@@ -113,6 +113,8 @@ func OvirtImageTransfers(w http.ResponseWriter, r *http.Request) {
 	if !available {
 		namespace = defaultNamespace
 	}
+	fmt.Println("ImageTransfers:")
+	fmt.Println("URL: ", r.URL.Path, "port: ", port, "service: ", service, "imageName: ", imageName, "namespace: ", namespace)
 
 	setContentType(w, xmlContentType)
 	w.Write([]byte("<image_transfer id=\"64302e7f-3f08-4d32-9fe1-59b6c383acb5\"><signed_ticket>abc123</signed_ticket><phase>transferring</phase><transfer_url>https://" + service + "." + namespace + ":" + port + "/images/" + imageName + "</transfer_url></image_transfer>"))
