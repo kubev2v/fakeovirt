@@ -49,7 +49,7 @@
       {
         "responseBody": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><image_transfer href=\"/ovirt-engine/api/imagetransfers/abc123\" id=\"abc123\"><direction>download</direction><format>raw</format><phase>transferring</phase><transfer_url>http://ovirt-imageio.konveyor-forklift:12345/images/cirros</transfer_url><host href=\"/ovirt-engine/api/hosts/2900d577-63a8-4ec9-acff-8493278346b1\" id=\"2900d577-63a8-4ec9-acff-8493278346b1\"/></image_transfer>",
         "responseCode": 200,
-        "times": 3
+        "times": 20
       },
       {
         "responseBody": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?><image_transfer href=\"/ovirt-engine/api/imagetransfers/abc123\" id=\"abc123\"><direction>download</direction><format>raw</format><phase>finished_success</phase><transfer_url>http://ovirt-imageio.konveyor-forklift:12345/images/cirros</transfer_url><host href=\"/ovirt-engine/api/hosts/2900d577-63a8-4ec9-acff-8493278346b1\" id=\"2900d577-63a8-4ec9-acff-8493278346b1\"/></image_transfer>",
