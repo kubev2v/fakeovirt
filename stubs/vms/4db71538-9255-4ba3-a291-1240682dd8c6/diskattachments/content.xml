@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<disk_attachments>
+    <disk_attachment href="/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/diskattachments/a5dd889c-77f4-43bc-b981-bfc8f48b08ca" id="a5dd889c-77f4-43bc-b981-bfc8f48b08ca">
+        <active>true</active>
+        <bootable>true</bootable>
+        <interface>virtio_scsi</interface>
+        <pass_discard>false</pass_discard>
+        <read_only>false</read_only>
+        <uses_scsi_reservation>false</uses_scsi_reservation>
+        <disk href="/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca" id="a5dd889c-77f4-43bc-b981-bfc8f48b08ca"/>
+        <vm href="/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6" id="4db71538-9255-4ba3-a291-1240682dd8c6"/>
+    </disk_attachment>
+</disk_attachments>

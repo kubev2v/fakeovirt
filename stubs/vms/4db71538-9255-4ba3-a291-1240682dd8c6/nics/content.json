@@ -1,0 +1,53 @@
+{
+    "nics": {
+      "nic": [
+        {
+          "interface": "virtio",
+          "linked": "true",
+          "mac": {
+            "address": "37:8b:db:cd:92:3c"
+          },
+          "plugged": "true",
+          "synced": "true",
+          "vnic_profile": {
+            "href": "/ovirt-engine/api/vnicprofiles/b891f46c-9a5c-4f5b-802f-4cc0e3bd6267",
+            "id": "b891f46c-9a5c-4f5b-802f-4cc0e3bd6267"
+          },
+          "actions": {
+            "link": [
+              {
+                "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/activate",
+                "rel": "activate"
+              },
+              {
+                "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/deactivate",
+                "rel": "deactivate"
+              }
+            ]
+          },
+          "name": "nic1",
+          "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec",
+          "id": "fe86a269-beb1-4bc1-9c70-9d6cf297a6ec",
+          "vm": {
+            "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+            "id": "4db71538-9255-4ba3-a291-1240682dd8c6"
+          },
+          "link": [
+            {
+              "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/reporteddevices",
+              "rel": "reporteddevices"
+            },
+            {
+              "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/networkfilterparameters",
+              "rel": "networkfilterparameters"
+            },
+            {
+              "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/statistics",
+              "rel": "statistics"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  

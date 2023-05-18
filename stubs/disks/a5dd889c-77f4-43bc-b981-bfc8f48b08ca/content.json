@@ -1,0 +1,66 @@
+{
+    "actual_size" : "46137344",
+    "alias" : "cirros",
+    "backup" : "none",
+    "content_type" : "data",
+    "format" : "raw",
+    "image_id" : "1edab87a-13e7-4f99-aaaa-31af77ede1f5",
+    "propagate_errors" : "false",
+    "provisioned_size" : "46137344",
+    "shareable" : "false",
+    "sparse" : "true",
+    "status" : "ok",
+    "storage_type" : "image",
+    "total_size" : "46137344",
+    "wipe_after_delete" : "false",
+    "disk_profile" : {
+      "href" : "/ovirt-engine/api/diskprofiles/0f9c5266-0192-4127-897f-b297cf6c8e04",
+      "id" : "0f9c5266-0192-4127-897f-b297cf6c8e04"
+    },
+    "quota" : {
+      "href" : "/ovirt-engine/api/datacenters/32ebd239-25a2-4a13-b514-5bf7c8de6878/quotas/712172d4-dc8e-4989-8a20-578506088116",
+      "id" : "712172d4-dc8e-4989-8a20-578506088116"
+    },
+    "storage_domains" : {
+      "storage_domain" : [ {
+        "href" : "/ovirt-engine/api/storagedomains/95ef6fee-5773-46a2-9340-a636958a96b8",
+        "id" : "95ef6fee-5773-46a2-9340-a636958a96b8"
+      } ]
+    },
+    "actions" : {
+      "link" : [ {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/reduce",
+        "rel" : "reduce"
+      }, {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/sparsify",
+        "rel" : "sparsify"
+      }, {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/copy",
+        "rel" : "copy"
+      }, {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/export",
+        "rel" : "export"
+      }, {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/move",
+        "rel" : "move"
+      }, {
+        "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/refreshlun",
+        "rel" : "refreshlun"
+      } ]
+    },
+    "name" : "cirros",
+    "description" : "",
+    "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+    "id" : "a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+    "link" : [ {
+      "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/permissions",
+      "rel" : "permissions"
+    }, {
+      "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/disksnapshots",
+      "rel" : "disksnapshots"
+    }, {
+      "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca/statistics",
+      "rel" : "statistics"
+    } ]
+  }
+  
