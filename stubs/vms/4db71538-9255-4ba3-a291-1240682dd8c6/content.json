@@ -1,0 +1,341 @@
+{
+  "vm" : [ {
+    "next_run_configuration_exists" : "false",
+    "status" : "down",
+    "stop_reason" : "",
+    "stop_time" : 1666685876849,
+    "cdroms" : {
+      "cdrom" : [ {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/cdroms/00000000-0000-0000-0000-000000000000",
+        "id" : "00000000-0000-0000-0000-000000000000",
+        "vm" : {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+          "id" : "4db71538-9255-4ba3-a291-1240682dd8c6"
+        }
+      } ]
+    },
+    "disk_attachments" : {
+      "disk_attachment" : [ {
+        "active" : "true",
+        "bootable" : "true",
+        "interface" : "virtio_scsi",
+        "pass_discard" : "false",
+        "read_only" : "false",
+        "uses_scsi_reservation" : "false",
+        "disk" : {
+          "href" : "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+          "id" : "a5dd889c-77f4-43bc-b981-bfc8f48b08ca"
+        },
+        "vm" : {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+          "id" : "4db71538-9255-4ba3-a291-1240682dd8c6"
+        },
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/diskattachments/a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+        "id" : "a5dd889c-77f4-43bc-b981-bfc8f48b08ca"
+      } ]
+    },
+    "host_devices" : { },
+    "nics" : {
+      "nic" : [ {
+        "interface" : "virtio",
+        "linked" : "true",
+        "mac" : {
+          "address" : "37:8b:db:cd:92:3c"
+        },
+        "plugged" : "true",
+        "synced" : "true",
+        "vnic_profile" : {
+          "href" : "/ovirt-engine/api/vnicprofiles/b891f46c-9a5c-4f5b-802f-4cc0e3bd6267",
+          "id" : "b891f46c-9a5c-4f5b-802f-4cc0e3bd6267"
+        },
+        "actions" : {
+          "link" : [ {
+            "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/activate",
+            "rel" : "activate"
+          }, {
+            "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/deactivate",
+            "rel" : "deactivate"
+          } ]
+        },
+        "name" : "nic1",
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec",
+        "id" : "fe86a269-beb1-4bc1-9c70-9d6cf297a6ec",
+        "vm" : {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+          "id" : "4db71538-9255-4ba3-a291-1240682dd8c6"
+        },
+        "link" : [ {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/reporteddevices",
+          "rel" : "reporteddevices"
+        }, {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/networkfilterparameters",
+          "rel" : "networkfilterparameters"
+        }, {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics/fe86a269-beb1-4bc1-9c70-9d6cf297a6ec/statistics",
+          "rel" : "statistics"
+        } ]
+      } ]
+    },
+    "original_template" : {
+      "href" : "/ovirt-engine/api/templates/00000000-0000-0000-0000-000000000000",
+      "id" : "00000000-0000-0000-0000-000000000000"
+    },
+    "snapshots" : {
+      "snapshot" : [ {
+        "date" : 1665068704884,
+        "persist_memorystate" : "false",
+        "snapshot_status" : "ok",
+        "snapshot_type" : "active",
+        "vm" : {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+          "id" : "4db71538-9255-4ba3-a291-1240682dd8c6"
+        },
+        "actions" : {
+          "link" : [ {
+            "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots/b4755310-3d99-4789-ac26-afa32079b139/restore",
+            "rel" : "restore"
+          } ]
+        },
+        "description" : "Active VM",
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots/b4755310-3d99-4789-ac26-afa32079b139",
+        "id" : "b4755310-3d99-4789-ac26-afa32079b139",
+        "link" : [ {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots/b4755310-3d99-4789-ac26-afa32079b139/cdroms",
+          "rel" : "cdroms"
+        }, {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots/b4755310-3d99-4789-ac26-afa32079b139/disks",
+          "rel" : "disks"
+        }, {
+          "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots/b4755310-3d99-4789-ac26-afa32079b139/nics",
+          "rel" : "nics"
+        } ]
+      } ]
+    },
+    "template" : {
+      "href" : "/ovirt-engine/api/templates/00000000-0000-0000-0000-000000000000",
+      "id" : "00000000-0000-0000-0000-000000000000"
+    },
+    "watchdogs" : { },
+    "actions" : {
+      "link" : [ {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/detach",
+        "rel" : "detach"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/shutdown",
+        "rel" : "shutdown"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/start",
+        "rel" : "start"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/stop",
+        "rel" : "stop"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/suspend",
+        "rel" : "suspend"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/reset",
+        "rel" : "reset"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/ticket",
+        "rel" : "ticket"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/migrate",
+        "rel" : "migrate"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/reboot",
+        "rel" : "reboot"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/commitsnapshot",
+        "rel" : "commitsnapshot"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/clone",
+        "rel" : "clone"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/freezefilesystems",
+        "rel" : "freezefilesystems"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/logon",
+        "rel" : "logon"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/maintenance",
+        "rel" : "maintenance"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/previewsnapshot",
+        "rel" : "previewsnapshot"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/autopincpuandnumanodes",
+        "rel" : "autopincpuandnumanodes"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/reordermacaddresses",
+        "rel" : "reordermacaddresses"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/thawfilesystems",
+        "rel" : "thawfilesystems"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/undosnapshot",
+        "rel" : "undosnapshot"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/cancelmigration",
+        "rel" : "cancelmigration"
+      }, {
+        "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/export",
+        "rel" : "export"
+      } ]
+    },
+    "name" : "vm-for-insecure-migration",
+    "description" : "",
+    "comment" : "",
+    "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+    "id" : "4db71538-9255-4ba3-a291-1240682dd8c6",
+    "bios" : {
+      "boot_menu" : {
+        "enabled" : "false"
+      },
+      "type" : "q35_sea_bios"
+    },
+    "cpu" : {
+      "architecture" : "x86_64",
+      "topology" : {
+        "cores" : "1",
+        "sockets" : "1",
+        "threads" : "1"
+      }
+    },
+    "display" : {
+      "allow_override" : "false",
+      "copy_paste_enabled" : "true",
+      "disconnect_action" : "LOCK_SCREEN",
+      "file_transfer_enabled" : "true",
+      "monitors" : "1",
+      "smartcard_enabled" : "false",
+      "type" : "spice"
+    },
+    "io" : {
+      "threads" : "1"
+    },
+    "memory" : "1073741824",
+    "migration" : {
+      "auto_converge" : "inherit",
+      "compressed" : "inherit",
+      "encrypted" : "inherit"
+    },
+    "origin" : "ovirt",
+    "os" : {
+      "boot" : {
+        "devices" : {
+          "device" : [ "hd" ]
+        }
+      },
+      "type" : "other"
+    },
+    "sso" : {
+      "methods" : {
+        "method" : [ {
+          "id" : "guest_agent"
+        } ]
+      }
+    },
+    "stateless" : "false",
+    "type" : "server",
+    "usb" : {
+      "enabled" : "false"
+    },
+    "cluster" : {
+      "href" : "/ovirt-engine/api/clusters/b94f0a35-8ed8-429c-999a-4d776640107e",
+      "id" : "b94f0a35-8ed8-429c-999a-4d776640107e"
+    },
+    "quota" : {
+      "id" : "712172d4-dc8e-4989-8a20-578506088116"
+    },
+    "link" : [ {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/graphicsconsoles",
+      "rel" : "graphicsconsoles"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/cdroms",
+      "rel" : "cdroms"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/watchdogs",
+      "rel" : "watchdogs"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/diskattachments",
+      "rel" : "diskattachments"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/snapshots",
+      "rel" : "snapshots"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/applications",
+      "rel" : "applications"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/hostdevices",
+      "rel" : "hostdevices"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/reporteddevices",
+      "rel" : "reporteddevices"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/sessions",
+      "rel" : "sessions"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/backups",
+      "rel" : "backups"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/checkpoints",
+      "rel" : "checkpoints"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/nics",
+      "rel" : "nics"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/numanodes",
+      "rel" : "numanodes"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/katelloerrata",
+      "rel" : "katelloerrata"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/permissions",
+      "rel" : "permissions"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/affinitylabels",
+      "rel" : "affinitylabels"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/tags",
+      "rel" : "tags"
+    }, {
+      "href" : "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/statistics",
+      "rel" : "statistics"
+    } ],
+    "cpu_shares" : "0",
+    "creation_time" : 1665068704618,
+    "delete_protected" : "false",
+    "high_availability" : {
+      "enabled" : "false",
+      "priority" : "1"
+    },
+    "large_icon" : {
+      "href" : "/ovirt-engine/api/icons/b34cbd6a-a64b-4718-a0bb-f7166f696ab2",
+      "id" : "b34cbd6a-a64b-4718-a0bb-f7166f696ab2"
+    },
+    "memory_policy" : {
+      "ballooning" : "true",
+      "guaranteed" : "1073741824",
+      "max" : "4294967296"
+    },
+    "migration_downtime" : "-1",
+    "multi_queues_enabled" : "true",
+    "placement_policy" : {
+      "affinity" : "migratable"
+    },
+    "small_icon" : {
+      "href" : "/ovirt-engine/api/icons/25581ebc-c80e-4571-a088-3a058561ca50",
+      "id" : "25581ebc-c80e-4571-a088-3a058561ca50"
+    },
+    "start_paused" : "false",
+    "storage_error_resume_behaviour" : "auto_resume",
+    "time_zone" : {
+      "name" : "Etc/GMT"
+    },
+    "virtio_scsi_multi_queues_enabled" : "false",
+    "cpu_profile" : {
+      "href" : "/ovirt-engine/api/cpuprofiles/597667d4-042c-4631-8257-f978ac18ae6c",
+      "id" : "597667d4-042c-4631-8257-f978ac18ae6c"
+    }
+  } ]
+}

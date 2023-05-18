@@ -1,0 +1,26 @@
+{
+    "disk_attachments": {
+      "disk_attachment": [
+        {
+          "active": "true",
+          "bootable": "true",
+          "interface": "virtio_scsi",
+          "pass_discard": "false",
+          "read_only": "false",
+          "uses_scsi_reservation": "false",
+          "disk": {
+            "href": "/ovirt-engine/api/disks/a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+            "id": "a5dd889c-77f4-43bc-b981-bfc8f48b08ca"
+          },
+          "vm": {
+            "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6",
+            "id": "4db71538-9255-4ba3-a291-1240682dd8c6"
+          },
+          "href": "/ovirt-engine/api/vms/4db71538-9255-4ba3-a291-1240682dd8c6/diskattachments/a5dd889c-77f4-43bc-b981-bfc8f48b08ca",
+          "id": "a5dd889c-77f4-43bc-b981-bfc8f48b08ca"
+        }
+      ]
+    }
+  }
+  
+  
